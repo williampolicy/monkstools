@@ -1,3 +1,4 @@
+0.command.md
 LICENSE.txt
 README.md
 setup.py
@@ -12,5 +13,6 @@ monkstools.egg-info/PKG-INFO
 monkstools.egg-info/SOURCES.txt
 monkstools.egg-info/dependency_links.txt
 monkstools.egg-info/top_level.txt
+monkstools/__pycache__/__init__.cpython-38.pyc
 monkstools/__pycache__/person_group.cpython-38.pyc
 monkstools/__pycache__/secondary_preference.cpython-38.pyc

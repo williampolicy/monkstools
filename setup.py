@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='monkstools',
-    version='0.3',  # ini
+    version='0.4',  # ini
     packages=find_packages(),
     install_requires=[
         # e.g. 'numpy>=1.10'
