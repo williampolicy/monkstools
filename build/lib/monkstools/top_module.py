@@ -1,7 +1,10 @@
 # monkstools/top_module.py
 
-from person_group import PersonGroup
-from secondary_preference import SecondaryPreference
+# from person_group import PersonGroup
+# from secondary_preference import SecondaryPreference
+from monkstools.person_group import PersonGroup
+from monkstools.secondary_preference import SecondaryPreference
+
 
 class TopModule:
     def __init__(self, data):
