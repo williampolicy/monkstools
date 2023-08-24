@@ -12,7 +12,7 @@ setup(
     description='Tools for the Monks advertising platform',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url='https://github.com/williampolicy/monkstools',  # 如果有的话
+    url='https://github.com/williampolicy/monkstools',  
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
