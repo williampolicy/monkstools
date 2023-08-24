@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='monkstools',
-    version='0.2',  # ini
+    version='0.3',  # ini
     packages=find_packages(),
     install_requires=[
         # e.g. 'numpy>=1.10'
     ],
     author='xiaowen kang',
-    author_email='your.email@example.com',
+    author_email='kangxiaowen@gmail.com',
     description='Tools for the Monks advertising platform',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
