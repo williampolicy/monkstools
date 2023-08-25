@@ -1,7 +1,10 @@
 # user_test_roi.py
 import pkg_resources
 import matplotlib.pyplot as plt
-from monkstools.roi_calculator import ROICalculator, display_roi_matrix  # Assuming the filename is 'roi_calculator.py'
+# from monkstools.roi_calculator import ROICalculator, display_roi_matrix  # Assuming the filename is 'roi_calculator.py'
+
+from monkstools.roi_calculator import ROICalculator  # Only importing the ROICalculator class
+
 
 def test_display_roi_matrix():
 
@@ -17,7 +20,7 @@ def test_display_roi_matrix():
     platforms = ['Youtube', 'Facebook', 'WhatsApp', 'Instagram', 'WeChat', 'TikTok', 'QQ', 'Weibo', 'Twitter', 
                  'LinkedIn', 'Snapchat', 'Pinterest', 'Reddit', 'Telegram', 'LINE', 'Viber', 'IMO', 'Zalo', 'VK', 'Odnoklassniki']
 
-    display_roi_matrix(roi_calculator, products, platforms)
+    roi_calculator.display_roi_matrix(products, platforms) 
 
     # Verify manually by checking the displayed chart or saved "ROI_Comparison.png"
     # Optionally, you could also add some automated assertions here based on expected values or behaviors

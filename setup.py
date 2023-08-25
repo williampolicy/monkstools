@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='monkstools',
-    version='0.10',  # version number
+    version='0.13',  # version number
     packages=find_packages(),
     package_data={
         'monkstools': [

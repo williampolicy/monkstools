@@ -6,10 +6,13 @@ setup.py
 upgrade_pypi_package_kangtools.py
 version.txt
 bk/customer_preferences.py
+bk/person_group.py
 bk/roi_calculator.py
 bk/roi_calculator_v1.py
 bk/roi_calculator_v2.py
+bk/secondary_preference.py
 bk/top_module.py
+bk/user_test.py
 bk/user_test_roi_csv.py
 monkstools/ROI_Comparison.png
 monkstools/__init__.py
@@ -36,3 +39,4 @@ prepare_data/p4_map_perfer_product_CostomerType.py
 user_manual/README.md
 user_manual/ROI_Comparison.png
 user_manual/user_test_roi.py
+welldone/welldone_20230824_roi_cal.py

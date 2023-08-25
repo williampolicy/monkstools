@@ -1,10 +1,7 @@
-
-
-
 import matplotlib.pyplot as plt
 import numpy as np
-from product_preference import ProductPreference
-from transmission_cost import TransmissionCost
+from monkstools.product_preference import ProductPreference
+from monkstools.transmission_cost import TransmissionCost
 
 class ROICalculator:
     def __init__(self, preference_file, cost_file):
@@ -29,7 +26,7 @@ class ROICalculator:
 
     # def display_roi_matrix(self, products, platforms):
         # ...[rest of the code for visualization]...
-    def display_roi_matrix(roi_calculator, products, platforms):
+    def display_roi_matrix(self, products, platforms):
         print("ROICalculator: Displaying the ROI matrix...")
         
         # ... other parts of the code ...
@@ -42,7 +39,7 @@ class ROICalculator:
         fig.subplots_adjust(bottom=0.2)  # Adjusting the bottom space for the legend
 
         for i, product in enumerate(products):
-            rois = [roi_calculator.calculate(product, platform) for platform in platforms]
+            rois = [self.calculate(product, platform) for platform in platforms]
             ax = axs[i//5, i%5]
             bars = ax.bar(platforms, rois, color=colors)
             ax.set_title(product)
